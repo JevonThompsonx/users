@@ -26,3 +26,27 @@ The code and test content in the published tree is identical to the verified
 local tree. The public history is a single clean root commit; earlier local
 work-in-progress history was replaced so internal author metadata is not
 published.
+
+## Seafile delivery
+
+The packaged release was also delivered to the Seafile `agent_files` library so
+the requesting operator can grab it directly.
+
+| Item | Value |
+|---|---|
+| Library | `agent_files` |
+| Folder | `/outgoing/2026-11-06-ad-user-provisioning/` |
+| Bundle | `ad-user-provisioning-2026-11-06.zip` |
+| Source | `main` head at delivery time (recorded in `MANIFEST.txt`) |
+
+Files in the delivery folder:
+
+- `ad-user-provisioning-2026-11-06.zip` — complete repository snapshot.
+- `MANIFEST.txt` — source commit, bundle SHA-256, per-file SHA-256.
+- `users.ps1` — standalone entry script.
+- `UserImport.template.csv` — standalone CSV template.
+- `departments.example.json` — standalone department map.
+- `README.md` — standalone quick start.
+
+The bundle is built with `git archive` from the repository head at delivery
+time. `MANIFEST.txt` is the authoritative hash record.

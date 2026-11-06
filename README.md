@@ -237,4 +237,10 @@ Read [docs/SECURITY.md](docs/SECURITY.md) and
 version: run `-WhatIf`, review the plan, use a delegated account, protect the
 credential export, and keep the audit CSV.
 
+## Release bundle
+
+A packaged copy of this repository is delivered to the Seafile `agent_files`
+library under `/outgoing/2026-11-06-ad-user-provisioning/` for the requesting
+operator. The bundle includes `MANIFEST.txt` with per-file SHA-256 hashes.
+
 No license is granted by this repository; add one before redistributing.
