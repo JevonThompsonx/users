@@ -7,8 +7,8 @@ Date: 2026-11-06.
 | GitHub | https://github.com/JevonThompsonx/users | `main` |
 | Forgejo | https://forge.jsquaredadventures.com/zLeafNinja/users | `main` |
 
-Implementation commit: `1e4d77509416413e3c03531e89bac4085ea9fcb2`
-("Harden privileged-group checks, preview, and dry-run behavior").
+Implementation commit: `70040811aea7703c711e6f0134b316194b0277cc`
+("Add safe AD user provisioning script with tests and operator docs").
 
 Both remotes were created from the sanitized local tree. The commit does not
 contain test artifacts, credential exports, local `config/departments.json`,
@@ -23,4 +23,6 @@ Verification of the published tree:
   integration, 0 PSScriptAnalyzer errors.
 
 The code and test content in the published tree is identical to the verified
-local tree.
+local tree. The public history is a single clean root commit; earlier local
+work-in-progress history was replaced so internal author metadata is not
+published.
