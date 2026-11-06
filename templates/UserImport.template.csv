@@ -1,0 +1,3 @@
+FirstName,MiddleName,LastName,Department,Title,Manager,SamAccountName,UserPrincipalName,EmailAddress,EmployeeID,Office,OfficePhone,MobilePhone,StreetAddress,City,State,PostalCode,Country,Description,Groups,OU
+Jane,,Doe,Finance,Financial Analyst,mgr.finance,,,,E-1001,Head Office,555-0100,,123 Main Street,Springfield,IL,62701,USA,,,
+John,,Smith,Engineering,Software Engineer,mgr.engineering,,,,E-1002,Head Office,555-0101,,123 Main Street,Springfield,IL,62701,USA,,Source Control Users,

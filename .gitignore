@@ -1,0 +1,20 @@
+# Runtime output
+artifacts/
+logs/
+*.log
+provisioning-*.csv
+temporary-passwords*.csv
+
+# Local configuration (copy from the example)
+config/departments.json
+
+# Local secrets and environment files
+.env
+*.secret
+*.key
+
+# Editor and OS noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

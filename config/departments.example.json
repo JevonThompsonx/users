@@ -1,0 +1,113 @@
+{
+  "usersRootOU": "OU=Users,OU=Company",
+  "upnSuffix": "corp.example.com",
+  "emailDomain": "example.com",
+  "company": "Example Corporation",
+  "privilegedGroups": [],
+  "departments": {
+    "Finance": {
+      "ou": "OU=Finance,OU=Administrative,OU=Departments",
+      "groups": [
+        "Finance Team",
+        "Standard Employee Access",
+        "Remote Access",
+        "Knowledge Base Users"
+      ]
+    },
+    "Human Resources": {
+      "ou": "OU=Human Resources,OU=Administrative,OU=Departments",
+      "groups": [
+        "HR Team",
+        "Culture Committee",
+        "Standard Employee Access",
+        "Remote Access",
+        "Knowledge Base Users"
+      ]
+    },
+    "Information Technology": {
+      "ou": "OU=Information Technology,OU=Administrative,OU=Departments",
+      "groups": [
+        "IT Team",
+        "Standard Employee Access",
+        "Remote Access",
+        "Knowledge Base Users"
+      ]
+    },
+    "Business Development": {
+      "ou": "OU=Business Development,OU=Departments",
+      "groups": [
+        "Standard Employee Access",
+        "Remote Access",
+        "Knowledge Base Users"
+      ]
+    },
+    "Engineering": {
+      "ou": "OU=Engineering,OU=Departments",
+      "groups": [
+        "Engineering Team",
+        "Standard Employee Access",
+        "Remote Access",
+        "Knowledge Base Users",
+        "Source Control Users"
+      ]
+    },
+    "Document Control": {
+      "ou": "OU=Document Control,OU=Operations,OU=Departments",
+      "groups": [
+        "Document Control Team",
+        "Standard Employee Access",
+        "Remote Access",
+        "Knowledge Base Users",
+        "Project Tracking Users"
+      ]
+    },
+    "Facilities": {
+      "ou": "OU=Facilities,OU=Operations,OU=Departments",
+      "groups": [
+        "Facilities Team",
+        "Standard Employee Access",
+        "Remote Access",
+        "Knowledge Base Users"
+      ]
+    },
+    "Manufacturing": {
+      "ou": "OU=Manufacturing,OU=Operations,OU=Departments",
+      "groups": [
+        "Manufacturing Team",
+        "Standard Employee Access",
+        "Remote Access",
+        "Knowledge Base Users"
+      ]
+    },
+    "Manufacturing Engineering": {
+      "ou": "OU=Manufacturing Engineering,OU=Operations,OU=Departments",
+      "groups": [
+        "Manufacturing Engineering Team",
+        "Standard Employee Access",
+        "Remote Access",
+        "Knowledge Base Users"
+      ]
+    },
+    "Materials": {
+      "ou": "OU=Materials,OU=Operations,OU=Departments",
+      "groups": [
+        "Materials Team",
+        "Standard Employee Access",
+        "Restricted Area Access",
+        "Remote Access",
+        "Shipping Team",
+        "Knowledge Base Users"
+      ]
+    },
+    "Quality Assurance": {
+      "ou": "OU=Quality Assurance,OU=Operations,OU=Departments",
+      "groups": [
+        "Quality Assurance Team",
+        "Quality Team",
+        "Standard Employee Access",
+        "Remote Access",
+        "Knowledge Base Users"
+      ]
+    }
+  }
+}
